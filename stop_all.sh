@@ -18,7 +18,7 @@ echo '--- Neo4j ---'
 sudo systemctl stop neo4j && echo 'stopped'
 
 echo '--- HDFS ---'
-stop-dfs.sh
+/usr/local/hadoop/sbin/stop-dfs.sh
 
 echo '--- PostgreSQL ---'
 sudo systemctl stop postgresql && echo 'stopped'

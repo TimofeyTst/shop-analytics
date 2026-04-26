@@ -31,7 +31,7 @@ echo '--- HDFS ---'
 if hdfs dfsadmin -report 2>/dev/null | grep -q 'Live datanodes'; then
   echo 'already running'
 else
-  start-dfs.sh
+  /usr/local/hadoop/sbin/start-dfs.sh
 fi
 hdfs dfsadmin -report 2>/dev/null | grep 'Live datanodes'
 
