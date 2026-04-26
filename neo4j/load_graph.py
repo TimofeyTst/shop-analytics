@@ -1,31 +1,37 @@
 """
-Load purchase data from Elasticsearch into Neo4j graph database.
+Загрузка данных из Elasticsearch в Neo4j.
 
-Graph schema:
+Читает покупки из индекса ES 'purchases' (не из файлов),
+строит граф:
   (Purchase {purchase_id, purchase_date, customer_info})
     -[:INCLUDES {quantity, total_price}]->
   (Product {product_id, product_name})
 """
-import json
+from elasticsearch import Elasticsearch
+from elasticsearch.helpers import scan
 from neo4j import GraphDatabase
 
+ES_URL   = "http://localhost:9200"
 BOLT_URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "neo4j123")
-
-DATA_FILE = "data/purchases.json"
+AUTH     = ("neo4j", "neo4j123")
 
 
-def load_purchases():
-    with open(DATA_FILE, encoding="utf-8") as f:
-        return [json.loads(line) for line in f]
+def fetch_purchases_from_es() -> list[dict]:
+    """Получает все документы из индекса purchases через scroll API."""
+    es   = Elasticsearch(ES_URL)
+    hits = scan(es, index="purchases", query={"query": {"match_all": {}}})
+    docs = [hit["_source"] for hit in hits]
+    print(f"Получено из Elasticsearch: {len(docs)} покупок")
+    return docs
 
 
-def clear_graph(session):
+def clear_graph(session) -> None:
     session.run("MATCH (n) DETACH DELETE n")
-    print("Graph cleared.")
+    print("Граф очищен.")
 
 
-def create_graph(session, purchases):
+def load_into_graph(session, purchases: list[dict]) -> None:
+    """Создаёт узлы Purchase и Product, связывает их отношением INCLUDES."""
     query = """
     MERGE (purchase:Purchase {purchase_id: $purchase_id})
       ON CREATE SET
@@ -40,7 +46,8 @@ def create_graph(session, purchases):
         r.total_price = $total_price
     """
     for i, doc in enumerate(purchases):
-        session.run(query,
+        session.run(
+            query,
             purchase_id  = doc["purchase_id"],
             purchase_date= doc["purchase_date"],
             customer_info= doc["customer_info"],
@@ -50,18 +57,19 @@ def create_graph(session, purchases):
             total_price  = doc["total_price"],
         )
         if (i + 1) % 200 == 0:
-            print(f"  Loaded {i + 1} / {len(purchases)} ...")
-    print(f"Graph loaded: {len(purchases)} purchases.")
+            print(f"  Загружено {i + 1} / {len(purchases)} ...")
+    print(f"Граф заполнен: {len(purchases)} покупок.")
 
 
 def main():
+    purchases = fetch_purchases_from_es()
+
     driver = GraphDatabase.driver(BOLT_URI, auth=AUTH)
-    purchases = load_purchases()
     with driver.session() as session:
         clear_graph(session)
-        create_graph(session, purchases)
+        load_into_graph(session, purchases)
     driver.close()
-    print("Done.")
+    print("Готово.")
 
 
 if __name__ == "__main__":
