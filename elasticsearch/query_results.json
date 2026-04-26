@@ -1,0 +1,5030 @@
+{
+  "query1_monthly_sales": {
+    "by_month": {
+      "buckets": [
+        {
+          "key_as_string": "2023-01",
+          "key": 1672531200000,
+          "doc_count": 78,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 475.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 538.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 651.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 564.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 563.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 354.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 336.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 333.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 341.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 331.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 443.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 393.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 321.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 266.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 333.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 64.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 77.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 204.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 231.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 158.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 34.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 186.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 324.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 322.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 13.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 130.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 30.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 79.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-02",
+          "key": 1675209600000,
+          "doc_count": 73,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 8,
+                "total_sold": {
+                  "value": 877.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 604.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 602.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 560.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 504.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 371.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 213.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 515.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 367.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 295.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 141.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 370.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 333.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 291.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 234.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 298.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 185.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 239.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 366.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 121.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 145.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 164.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 117.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 90.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 142.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 131.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 183.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-03",
+          "key": 1677628800000,
+          "doc_count": 83,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 639.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 396.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 368.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 443.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 374.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 405.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 348.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 518.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 571.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 209.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 153.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 206.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 323.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 392.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 183.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 323.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 326.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 250.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 102.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 185.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 140.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 228.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 195.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 195.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 232.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 35.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 146.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 163.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 82.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-04",
+          "key": 1680307200000,
+          "doc_count": 98,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 8,
+                "total_sold": {
+                  "value": 767.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 232.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 352.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 407.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 171.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 418.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 279.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 331.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 485.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 385.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 591.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 319.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 634.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 294.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 289.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 229.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 350.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 507.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 413.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 288.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 181.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 256.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 113.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 363.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 276.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 120.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 185.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 66.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-05",
+          "key": 1682899200000,
+          "doc_count": 92,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 632.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 649.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 265.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 452.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 539.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 235.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 470.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 338.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 528.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 432.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 454.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 272.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 223.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 94.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 220.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 248.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 336.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 175.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 211.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 202.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 205.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 254.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 358.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 231.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 149.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 236.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 271.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 101.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 78.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-06",
+          "key": 1685577600000,
+          "doc_count": 103,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 860.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 486.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 368.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 609.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 400.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 580.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 626.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 555.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 245.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 414.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 562.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 384.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 493.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 568.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 361.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 353.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 178.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 133.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 167.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 209.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 217.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 77.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 120.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 205.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 351.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 177.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 135.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 53.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 93.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 53.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-07",
+          "key": 1688169600000,
+          "doc_count": 88,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 901.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 532.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 357.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 291.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 626.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 421.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 300.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 248.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 414.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 363.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 270.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 203.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 286.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 194.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 463.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 416.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 326.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 133.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 160.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 257.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 329.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 147.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 77.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 217.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 5.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 70.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 33.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 96.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 6.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 85.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-08",
+          "key": 1690848000000,
+          "doc_count": 77,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 592.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 372.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 660.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 548.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 184.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 128.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 387.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 758.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 304.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 301.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 264.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 383.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 186.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 164.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 152.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 310.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 86.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 190.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 164.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 292.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 285.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 240.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 55.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 94.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 168.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 151.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 0.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 99.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-09",
+          "key": 1693526400000,
+          "doc_count": 78,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 482.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 235.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 437.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 410.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 658.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 472.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 496.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 317.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 470.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 359.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 405.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 320.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 164.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 183.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 381.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 186.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 236.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 218.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 151.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 102.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 39.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 4.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 136.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 61.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 47.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 83.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 122.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-10",
+          "key": 1696118400000,
+          "doc_count": 81,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 601.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 370.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 257.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 416.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 412.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 425.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 265.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 550.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 272.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 266.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 230.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 316.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 480.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 42.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 377.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 469.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 153.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 246.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 111.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 70.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 200.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 340.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 22.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 336.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 216.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 53.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 20.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 31.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-11",
+          "key": 1698796800000,
+          "doc_count": 83,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 607.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 425.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 437.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 674.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 722.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 396.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 327.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 456.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 523.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 178.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 353.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 305.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 339.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 495.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 196.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 223.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 240.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 313.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 313.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 192.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 41.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 118.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 262.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 168.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 162.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 123.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 150.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 143.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2023-12",
+          "key": 1701388800000,
+          "doc_count": 68,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 528.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 425.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 299.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 326.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 555.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 697.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 371.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 283.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 192.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 335.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 486.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 375.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 181.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 180.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 154.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 264.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 154.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 275.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 212.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 148.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 119.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 73.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 118.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 65.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 64.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-01",
+          "key": 1704067200000,
+          "doc_count": 93,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 8,
+                "total_sold": {
+                  "value": 1078.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 627.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 584.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 280.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 436.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 446.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 560.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 561.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 470.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 351.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 518.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 182.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 498.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 533.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 300.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 162.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 257.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 428.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 378.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 144.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 120.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 205.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 138.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 155.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 58.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 233.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 161.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-02",
+          "key": 1706745600000,
+          "doc_count": 93,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 9,
+                "total_sold": {
+                  "value": 686.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 9,
+                "total_sold": {
+                  "value": 589.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 443.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 408.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 684.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 439.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 255.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 405.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 386.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 429.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 546.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 229.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 250.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 458.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 493.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 317.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 123.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 269.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 376.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 278.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 335.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 131.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 194.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 189.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 195.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 162.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 155.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-03",
+          "key": 1709251200000,
+          "doc_count": 100,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 830.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 501.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 494.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 436.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 423.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 520.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 327.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 220.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 387.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 238.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 324.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 296.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 299.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 310.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 187.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 415.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 247.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 453.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 489.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 327.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 211.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 151.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 215.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 181.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 153.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 113.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 280.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 187.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 77.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-04",
+          "key": 1711929600000,
+          "doc_count": 77,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 604.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 327.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 441.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 397.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 345.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 437.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 148.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 338.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 199.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 342.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 300.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 197.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 371.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 357.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 248.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 194.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 187.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 244.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 103.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 181.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 158.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 220.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 192.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 287.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 234.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 116.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 81.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 152.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 67.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-05",
+          "key": 1714521600000,
+          "doc_count": 80,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 493.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 263.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 631.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 417.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 380.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 512.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 515.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 256.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 293.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 283.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 241.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 375.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 328.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 235.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 292.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 347.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 250.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 321.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 145.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 197.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 83.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 22.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 195.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 139.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 196.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 40.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 83.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-06",
+          "key": 1717200000000,
+          "doc_count": 81,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 854.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 853.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 806.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 320.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 577.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 217.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 544.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 532.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 499.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 106.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 409.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 183.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 296.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 303.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 309.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 237.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 100.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 296.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 247.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 235.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 186.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 38.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 125.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 55.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 169.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 28.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 58.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-07",
+          "key": 1719792000000,
+          "doc_count": 73,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 392.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 514.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 369.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 463.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 354.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 472.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 229.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 300.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 130.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 324.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 467.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 463.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 269.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 251.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 257.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 161.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 265.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 141.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 310.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 186.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 136.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 58.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 133.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 117.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 111.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 56.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 38.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 31.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 12.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-08",
+          "key": 1722470400000,
+          "doc_count": 105,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 656.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 525.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 689.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 6,
+                "total_sold": {
+                  "value": 389.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 337.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 510.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 308.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 395.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 435.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 221.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 434.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 512.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 405.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 469.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 441.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 444.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 472.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 414.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 112.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 140.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 383.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 395.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 259.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 36.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 139.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 126.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 260.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 118.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 157.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-09",
+          "key": 1725148800000,
+          "doc_count": 71,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 479.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 536.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 353.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 575.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 462.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 581.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 288.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 333.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 248.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 419.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 224.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 255.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 355.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 240.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 181.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 281.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 63.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 122.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 124.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 303.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 26.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 45.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 113.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 60.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 85.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 143.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-10",
+          "key": 1727740800000,
+          "doc_count": 87,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 631.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 596.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 7,
+                "total_sold": {
+                  "value": 832.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 360.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 282.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 321.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 357.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 624.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 225.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 561.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 276.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 250.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 193.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 99.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 345.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 249.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 322.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 144.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 279.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 142.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 293.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 238.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 140.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 173.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 196.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 127.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 57.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 13.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 62.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-11",
+          "key": 1730419200000,
+          "doc_count": 85,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 9,
+                "total_sold": {
+                  "value": 690.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 301.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 377.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 275.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 362.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 624.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 370.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 198.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 264.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 261.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 366.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 340.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 170.0
+                }
+              },
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 236.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 455.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 172.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 348.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 547.0
+                }
+              },
+              {
+                "key": "Электрочайник Philips HD9352",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 312.0
+                }
+              },
+              {
+                "key": "Игра The Last of Us Part I PS5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 113.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 141.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 87.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 102.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 114.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 70.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 105.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 46.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 47.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string": "2024-12",
+          "key": 1733011200000,
+          "doc_count": 83,
+          "by_product": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Миксер KitchenAid Artisan",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 460.0
+                }
+              },
+              {
+                "key": "Ноутбук Lenovo IdeaPad 3",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 494.0
+                }
+              },
+              {
+                "key": "Телевизор LG 55UQ7500",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 454.0
+                }
+              },
+              {
+                "key": "Холодильник Bosch KGN39VL25",
+                "doc_count": 5,
+                "total_sold": {
+                  "value": 806.0
+                }
+              },
+              {
+                "key": "Блендер Vitamix 5200",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 568.0
+                }
+              },
+              {
+                "key": "Кофемашина DeLonghi Magnifica",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 458.0
+                }
+              },
+              {
+                "key": "Куртка The North Face Resolve",
+                "doc_count": 4,
+                "total_sold": {
+                  "value": 420.0
+                }
+              },
+              {
+                "key": "Внешний диск WD My Passport 2TB",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 266.0
+                }
+              },
+              {
+                "key": "Гантели разборные 20кг",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 464.0
+                }
+              },
+              {
+                "key": "Игровая консоль Sony PlayStation 5",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 184.0
+                }
+              },
+              {
+                "key": "Йогуртница Oursson FE0205D",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 204.0
+                }
+              },
+              {
+                "key": "Книга Война и мир",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 465.0
+                }
+              },
+              {
+                "key": "Планшет Apple iPad 10",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 315.0
+                }
+              },
+              {
+                "key": "Посудомоечная машина Bosch SMS25AW01R",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 240.0
+                }
+              },
+              {
+                "key": "Смартфон Samsung Galaxy A55",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 146.0
+                }
+              },
+              {
+                "key": "Стиральная машина Indesit IWUB 4085",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 314.0
+                }
+              },
+              {
+                "key": "Умные часы Apple Watch SE",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 143.0
+                }
+              },
+              {
+                "key": "Фотоаппарат Canon EOS R50",
+                "doc_count": 3,
+                "total_sold": {
+                  "value": 216.0
+                }
+              },
+              {
+                "key": "Джинсы Levi's 501 Original",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 257.0
+                }
+              },
+              {
+                "key": "Книга Мастер и Маргарита",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 268.0
+                }
+              },
+              {
+                "key": "Наушники Sony WH-1000XM5",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 128.0
+                }
+              },
+              {
+                "key": "Принтер Epson L3250",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 78.0
+                }
+              },
+              {
+                "key": "Пылесос Dyson V15 Detect",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 239.0
+                }
+              },
+              {
+                "key": "Роутер ASUS RT-AX88U",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 97.0
+                }
+              },
+              {
+                "key": "Рюкзак Osprey Farpoint 40",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 301.0
+                }
+              },
+              {
+                "key": "Электросамокат Xiaomi Pro 2",
+                "doc_count": 2,
+                "total_sold": {
+                  "value": 133.0
+                }
+              },
+              {
+                "key": "Велосипед Trek Marlin 5",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 172.0
+                }
+              },
+              {
+                "key": "Кроссовки Nike Air Max 90",
+                "doc_count": 1,
+                "total_sold": {
+                  "value": 59.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "query2_total_revenue": {
+    "product_count": {
+      "value": 168
+    },
+    "total_revenue": {
+      "value": 480347645.0380249
+    }
+  },
+  "query2_period": {
+    "from": "2024-11-01",
+    "to": "2024-12-31"
+  }
+}
