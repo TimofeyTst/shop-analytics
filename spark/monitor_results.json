@@ -1,0 +1,431 @@
+{
+  "app_id": "local-1777212436802",
+  "app_name": "ShopAnalytics-Query",
+  "jobs": [
+    {
+      "jobId": 17,
+      "name": "collect at /home/timofeytst/shop-analytics/spark/query.py:41",
+      "submissionTime": "2026-04-26T14:07:28.334GMT",
+      "completionTime": "2026-04-26T14:07:28.408GMT",
+      "stageIds": [
+        20
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 16,
+      "name": "collect at /home/timofeytst/shop-analytics/spark/query.py:41",
+      "submissionTime": "2026-04-26T14:07:28.177GMT",
+      "completionTime": "2026-04-26T14:07:28.237GMT",
+      "stageIds": [
+        19
+      ],
+      "jobTags": [
+        "broadcast exchange (runId 5d8a03e9-691e-491e-934b-5dd5949af690)"
+      ],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 15,
+      "name": "collect at /home/timofeytst/shop-analytics/spark/query.py:41",
+      "submissionTime": "2026-04-26T14:07:28.161GMT",
+      "completionTime": "2026-04-26T14:07:28.254GMT",
+      "stageIds": [
+        18
+      ],
+      "jobTags": [
+        "broadcast exchange (runId 688c8352-49f0-467f-85dc-d9b466ebe822)"
+      ],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 14,
+      "name": "showString at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:27.703GMT",
+      "completionTime": "2026-04-26T14:07:27.904GMT",
+      "stageIds": [
+        17
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 13,
+      "name": "$anonfun$withThreadLocalCaptured$1 at FutureTask.java:264",
+      "submissionTime": "2026-04-26T14:07:27.385GMT",
+      "completionTime": "2026-04-26T14:07:27.498GMT",
+      "stageIds": [
+        16
+      ],
+      "jobTags": [
+        "broadcast exchange (runId 14f19df8-d1b1-4c57-961a-f148648c6618)"
+      ],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 12,
+      "name": "$anonfun$withThreadLocalCaptured$1 at FutureTask.java:264",
+      "submissionTime": "2026-04-26T14:07:27.379GMT",
+      "completionTime": "2026-04-26T14:07:27.534GMT",
+      "stageIds": [
+        15
+      ],
+      "jobTags": [
+        "broadcast exchange (runId 49c14869-fbaf-47b5-8f33-60fbb96aa78d)"
+      ],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 11,
+      "name": "count at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:26.813GMT",
+      "completionTime": "2026-04-26T14:07:26.882GMT",
+      "stageIds": [
+        13,
+        14
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 2,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 1,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 1,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 10,
+      "name": "count at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:26.743GMT",
+      "completionTime": "2026-04-26T14:07:26.785GMT",
+      "stageIds": [
+        12
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 9,
+      "name": "csv at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:26.595GMT",
+      "completionTime": "2026-04-26T14:07:26.658GMT",
+      "stageIds": [
+        11
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 8,
+      "name": "csv at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:26.491GMT",
+      "completionTime": "2026-04-26T14:07:26.537GMT",
+      "stageIds": [
+        10
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 7,
+      "name": "count at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:26.302GMT",
+      "completionTime": "2026-04-26T14:07:26.322GMT",
+      "stageIds": [
+        9,
+        8
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 2,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 1,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 1,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 6,
+      "name": "count at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:26.160GMT",
+      "completionTime": "2026-04-26T14:07:26.258GMT",
+      "stageIds": [
+        7
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 5,
+      "name": "csv at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:25.772GMT",
+      "completionTime": "2026-04-26T14:07:25.973GMT",
+      "stageIds": [
+        6
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 4,
+      "name": "csv at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:25.673GMT",
+      "completionTime": "2026-04-26T14:07:25.713GMT",
+      "stageIds": [
+        5
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 3,
+      "name": "count at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:25.355GMT",
+      "completionTime": "2026-04-26T14:07:25.467GMT",
+      "stageIds": [
+        3,
+        4
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 2,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 1,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 1,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 2,
+      "name": "count at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:25.075GMT",
+      "completionTime": "2026-04-26T14:07:25.262GMT",
+      "stageIds": [
+        2
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 1,
+      "name": "csv at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:24.388GMT",
+      "completionTime": "2026-04-26T14:07:24.685GMT",
+      "stageIds": [
+        1
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    },
+    {
+      "jobId": 0,
+      "name": "csv at NativeMethodAccessorImpl.java:0",
+      "submissionTime": "2026-04-26T14:07:23.164GMT",
+      "completionTime": "2026-04-26T14:07:23.992GMT",
+      "stageIds": [
+        0
+      ],
+      "jobTags": [],
+      "status": "SUCCEEDED",
+      "numTasks": 1,
+      "numActiveTasks": 0,
+      "numCompletedTasks": 1,
+      "numSkippedTasks": 0,
+      "numFailedTasks": 0,
+      "numKilledTasks": 0,
+      "numCompletedIndices": 1,
+      "numActiveStages": 0,
+      "numCompletedStages": 1,
+      "numSkippedStages": 0,
+      "numFailedStages": 0,
+      "killedTasksSummary": {}
+    }
+  ]
+}
