@@ -18,7 +18,7 @@ DB_PARAMS = {
 }
 
 EMBEDDING_MODEL = "text-embedding-3-small"
-BATCH_SIZE = 100
+BATCH_SIZE = 2048  # OpenAI accepts up to 2048 inputs per request
 
 DATA_FILE = "data/purchases.json"
 
@@ -29,12 +29,13 @@ def load_purchases():
 
 
 def make_text(doc):
-    """Concatenate purchase fields into a text for embedding."""
+    """Build the text string sent to the embedding model."""
     return (
-        f"{doc['customer_info']} "
-        f"{doc['product_name']} "
-        f"количество {doc['quantity']} "
-        f"стоимость {doc['total_price']}"
+        f"{doc['customer_info']}. "
+        f"Товар: {doc['product_name']}, "
+        f"количество: {doc['quantity']} шт., "
+        f"стоимость: {doc['total_price']} руб., "
+        f"дата: {doc['purchase_date']}"
     )
 
 
@@ -47,9 +48,10 @@ def create_table(conn):
     with conn.cursor() as cur:
         cur.execute("""
             CREATE TABLE IF NOT EXISTS purchase_vectors (
-                purchase_id   INTEGER PRIMARY KEY,
-                customer_info TEXT,
-                embedding     vector(1536)
+                purchase_id    INTEGER PRIMARY KEY,
+                customer_info  TEXT,
+                embedded_text  TEXT,
+                embedding      vector(1536)
             )
         """)
         cur.execute("TRUNCATE TABLE purchase_vectors")
@@ -59,11 +61,12 @@ def create_table(conn):
 
 def insert_batch(conn, rows):
     with conn.cursor() as cur:
-        for purchase_id, customer_info, embedding in rows:
+        for purchase_id, customer_info, embedded_text, embedding in rows:
             cur.execute(
-                "INSERT INTO purchase_vectors (purchase_id, customer_info, embedding) "
-                "VALUES (%s, %s, %s)",
-                (purchase_id, customer_info, str(embedding))
+                "INSERT INTO purchase_vectors "
+                "(purchase_id, customer_info, embedded_text, embedding) "
+                "VALUES (%s, %s, %s, %s)",
+                (purchase_id, customer_info, embedded_text, str(embedding))
             )
     conn.commit()
 
@@ -77,6 +80,10 @@ def main():
     purchases = load_purchases()
     print(f"Loaded {len(purchases)} purchases.")
 
+    # Show example of what we send to the model
+    example = make_text(purchases[0])
+    print(f"\nExample embedded text:\n  → {example}\n")
+
     conn = psycopg2.connect(**DB_PARAMS)
     create_table(conn)
 
@@ -87,17 +94,15 @@ def main():
         embeddings = embed_batch(client, texts)
 
         rows = [
-            (doc["purchase_id"], doc["customer_info"], emb)
-            for doc, emb in zip(batch, embeddings)
+            (doc["purchase_id"], doc["customer_info"], text, emb)
+            for doc, text, emb in zip(batch, texts, embeddings)
         ]
         insert_batch(conn, rows)
-
-        done = min(start + BATCH_SIZE, total)
-        print(f"  Embedded and stored {done}/{total} ...")
-        time.sleep(0.5)  # gentle rate limiting
+        print(f"  Embedded and stored {min(start + BATCH_SIZE, total)}/{total} ...")
 
     conn.close()
-    print("Done. All embeddings stored.")
+    print("\nDone. All embeddings stored.")
+    print(f"Model: {EMBEDDING_MODEL}, dimensions: 1536")
 
 
 if __name__ == "__main__":
