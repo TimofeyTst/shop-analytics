@@ -73,5 +73,7 @@ try:
 except Exception as e:
     print(f"Could not fetch monitor data: {e}")
 
+time.sleep(200)
+
 spark.stop()
 print("\nDone.")

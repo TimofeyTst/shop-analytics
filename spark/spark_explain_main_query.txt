@@ -1,0 +1,154 @@
+== Physical Plan ==
+AdaptiveSparkPlan (26)
++- == Final Plan ==
+   TakeOrderedAndProject (15)
+   +- * Project (14)
+      +- * BroadcastHashJoin Inner BuildRight (13)
+         :- * Project (8)
+         :  +- * BroadcastHashJoin Inner BuildRight (7)
+         :     :- * Filter (2)
+         :     :  +- Scan csv  (1)
+         :     +- BroadcastQueryStage (6), Statistics(sizeInBytes=1025.6 KiB, rowCount=200)
+         :        +- BroadcastExchange (5)
+         :           +- * Filter (4)
+         :              +- Scan csv  (3)
+         +- BroadcastQueryStage (12), Statistics(sizeInBytes=1039.9 KiB, rowCount=2.03E+3)
+            +- BroadcastExchange (11)
+               +- * Filter (10)
+                  +- Scan csv  (9)
++- == Initial Plan ==
+   TakeOrderedAndProject (25)
+   +- Project (24)
+      +- BroadcastHashJoin Inner BuildRight (23)
+         :- Project (20)
+         :  +- BroadcastHashJoin Inner BuildRight (19)
+         :     :- Filter (16)
+         :     :  +- Scan csv  (1)
+         :     +- BroadcastExchange (18)
+         :        +- Filter (17)
+         :           +- Scan csv  (3)
+         +- BroadcastExchange (22)
+            +- Filter (21)
+               +- Scan csv  (9)
+
+
+(1) Scan csv 
+Output [3]: [customer_id#46, product_id#48, total_price#50]
+Batched: false
+Location: InMemoryFileIndex [hdfs://localhost:9000/shop-analytics/purchases]
+PushedFilters: [IsNotNull(customer_id), IsNotNull(product_id)]
+ReadSchema: struct<customer_id:int,product_id:int,total_price:double>
+
+(2) Filter [codegen id : 3]
+Input [3]: [customer_id#46, product_id#48, total_price#50]
+Condition : (isnotnull(customer_id#46) AND isnotnull(product_id#48))
+
+(3) Scan csv 
+Output [2]: [customer_id#17, customer_info#18]
+Batched: false
+Location: InMemoryFileIndex [hdfs://localhost:9000/shop-analytics/customers]
+PushedFilters: [IsNotNull(customer_id)]
+ReadSchema: struct<customer_id:int,customer_info:string>
+
+(4) Filter [codegen id : 1]
+Input [2]: [customer_id#17, customer_info#18]
+Condition : isnotnull(customer_id#17)
+
+(5) BroadcastExchange
+Input [2]: [customer_id#17, customer_info#18]
+Arguments: HashedRelationBroadcastMode(List(cast(input[0, int, false] as bigint)),false), [plan_id=219]
+
+(6) BroadcastQueryStage
+Output [2]: [customer_id#17, customer_info#18]
+Arguments: 0
+
+(7) BroadcastHashJoin [codegen id : 3]
+Left keys [1]: [customer_id#46]
+Right keys [1]: [customer_id#17]
+Join type: Inner
+Join condition: None
+
+(8) Project [codegen id : 3]
+Output [3]: [product_id#48, total_price#50, customer_info#18]
+Input [5]: [customer_id#46, product_id#48, total_price#50, customer_id#17, customer_info#18]
+
+(9) Scan csv 
+Output [2]: [product_id#85, product_name#86]
+Batched: false
+Location: InMemoryFileIndex [hdfs://localhost:9000/shop-analytics/products]
+PushedFilters: [IsNotNull(product_id)]
+ReadSchema: struct<product_id:int,product_name:string>
+
+(10) Filter [codegen id : 2]
+Input [2]: [product_id#85, product_name#86]
+Condition : isnotnull(product_id#85)
+
+(11) BroadcastExchange
+Input [2]: [product_id#85, product_name#86]
+Arguments: HashedRelationBroadcastMode(List(cast(input[0, int, false] as bigint)),false), [plan_id=235]
+
+(12) BroadcastQueryStage
+Output [2]: [product_id#85, product_name#86]
+Arguments: 1
+
+(13) BroadcastHashJoin [codegen id : 3]
+Left keys [1]: [product_id#48]
+Right keys [1]: [product_id#85]
+Join type: Inner
+Join condition: None
+
+(14) Project [codegen id : 3]
+Output [3]: [customer_info#18, product_name#86, total_price#50]
+Input [5]: [product_id#48, total_price#50, customer_info#18, product_id#85, product_name#86]
+
+(15) TakeOrderedAndProject
+Input [3]: [customer_info#18, product_name#86, total_price#50]
+Arguments: 1, [total_price#50 DESC NULLS LAST], [toprettystring(customer_info#18, Some(Etc/UTC)) AS toprettystring(customer_info)#105, toprettystring(product_name#86, Some(Etc/UTC)) AS toprettystring(product_name)#106, toprettystring(total_price#50, Some(Etc/UTC)) AS toprettystring(total_price)#107]
+
+(16) Filter
+Input [3]: [customer_id#46, product_id#48, total_price#50]
+Condition : (isnotnull(customer_id#46) AND isnotnull(product_id#48))
+
+(17) Filter
+Input [2]: [customer_id#17, customer_info#18]
+Condition : isnotnull(customer_id#17)
+
+(18) BroadcastExchange
+Input [2]: [customer_id#17, customer_info#18]
+Arguments: HashedRelationBroadcastMode(List(cast(input[0, int, false] as bigint)),false), [plan_id=204]
+
+(19) BroadcastHashJoin
+Left keys [1]: [customer_id#46]
+Right keys [1]: [customer_id#17]
+Join type: Inner
+Join condition: None
+
+(20) Project
+Output [3]: [product_id#48, total_price#50, customer_info#18]
+Input [5]: [customer_id#46, product_id#48, total_price#50, customer_id#17, customer_info#18]
+
+(21) Filter
+Input [2]: [product_id#85, product_name#86]
+Condition : isnotnull(product_id#85)
+
+(22) BroadcastExchange
+Input [2]: [product_id#85, product_name#86]
+Arguments: HashedRelationBroadcastMode(List(cast(input[0, int, false] as bigint)),false), [plan_id=208]
+
+(23) BroadcastHashJoin
+Left keys [1]: [product_id#48]
+Right keys [1]: [product_id#85]
+Join type: Inner
+Join condition: None
+
+(24) Project
+Output [3]: [customer_info#18, product_name#86, total_price#50]
+Input [5]: [product_id#48, total_price#50, customer_info#18, product_id#85, product_name#86]
+
+(25) TakeOrderedAndProject
+Input [3]: [customer_info#18, product_name#86, total_price#50]
+Arguments: 1, [total_price#50 DESC NULLS LAST], [toprettystring(customer_info#18, Some(Etc/UTC)) AS toprettystring(customer_info)#105, toprettystring(product_name#86, Some(Etc/UTC)) AS toprettystring(product_name)#106, toprettystring(total_price#50, Some(Etc/UTC)) AS toprettystring(total_price)#107]
+
+(26) AdaptiveSparkPlan
+Output [3]: [toprettystring(customer_info)#105, toprettystring(product_name)#106, toprettystring(total_price)#107]
+Arguments: isFinalPlan=true

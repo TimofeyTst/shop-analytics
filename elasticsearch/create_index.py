@@ -8,7 +8,7 @@ RUSSIAN_SETTINGS = {
         "filter": {
             "russian_stop": {
                 "type": "stop",
-                "stopwords": "_russian_"
+                "stopwords": "_russian_" # встроенный список Elasticsearch (~150 слов: предлоги, союзы, местоимения: "и", "в")
             }
         },
         "analyzer": {

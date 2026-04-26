@@ -1,12 +1,12 @@
 {
-  "app_id": "local-1777212436802",
+  "app_id": "local-1777220387362",
   "app_name": "ShopAnalytics-Query",
   "jobs": [
     {
       "jobId": 17,
       "name": "collect at /home/timofeytst/shop-analytics/spark/query.py:41",
-      "submissionTime": "2026-04-26T14:07:28.334GMT",
-      "completionTime": "2026-04-26T14:07:28.408GMT",
+      "submissionTime": "2026-04-26T16:19:58.505GMT",
+      "completionTime": "2026-04-26T16:19:58.591GMT",
       "stageIds": [
         20
       ],
@@ -28,13 +28,13 @@
     {
       "jobId": 16,
       "name": "collect at /home/timofeytst/shop-analytics/spark/query.py:41",
-      "submissionTime": "2026-04-26T14:07:28.177GMT",
-      "completionTime": "2026-04-26T14:07:28.237GMT",
+      "submissionTime": "2026-04-26T16:19:58.343GMT",
+      "completionTime": "2026-04-26T16:19:58.417GMT",
       "stageIds": [
         19
       ],
       "jobTags": [
-        "broadcast exchange (runId 5d8a03e9-691e-491e-934b-5dd5949af690)"
+        "broadcast exchange (runId ae332661-4826-4195-8873-99fa8f6f69c9)"
       ],
       "status": "SUCCEEDED",
       "numTasks": 1,
@@ -53,13 +53,13 @@
     {
       "jobId": 15,
       "name": "collect at /home/timofeytst/shop-analytics/spark/query.py:41",
-      "submissionTime": "2026-04-26T14:07:28.161GMT",
-      "completionTime": "2026-04-26T14:07:28.254GMT",
+      "submissionTime": "2026-04-26T16:19:58.334GMT",
+      "completionTime": "2026-04-26T16:19:58.388GMT",
       "stageIds": [
         18
       ],
       "jobTags": [
-        "broadcast exchange (runId 688c8352-49f0-467f-85dc-d9b466ebe822)"
+        "broadcast exchange (runId c21a00bd-ebe0-4ae0-bd10-28e0f809f3f4)"
       ],
       "status": "SUCCEEDED",
       "numTasks": 1,
@@ -78,8 +78,8 @@
     {
       "jobId": 14,
       "name": "showString at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:27.703GMT",
-      "completionTime": "2026-04-26T14:07:27.904GMT",
+      "submissionTime": "2026-04-26T16:19:57.863GMT",
+      "completionTime": "2026-04-26T16:19:58.093GMT",
       "stageIds": [
         17
       ],
@@ -101,13 +101,13 @@
     {
       "jobId": 13,
       "name": "$anonfun$withThreadLocalCaptured$1 at FutureTask.java:264",
-      "submissionTime": "2026-04-26T14:07:27.385GMT",
-      "completionTime": "2026-04-26T14:07:27.498GMT",
+      "submissionTime": "2026-04-26T16:19:57.511GMT",
+      "completionTime": "2026-04-26T16:19:57.646GMT",
       "stageIds": [
         16
       ],
       "jobTags": [
-        "broadcast exchange (runId 14f19df8-d1b1-4c57-961a-f148648c6618)"
+        "broadcast exchange (runId 5894f7c3-3156-44e7-9a29-f8c5f29f5fe9)"
       ],
       "status": "SUCCEEDED",
       "numTasks": 1,
@@ -126,13 +126,13 @@
     {
       "jobId": 12,
       "name": "$anonfun$withThreadLocalCaptured$1 at FutureTask.java:264",
-      "submissionTime": "2026-04-26T14:07:27.379GMT",
-      "completionTime": "2026-04-26T14:07:27.534GMT",
+      "submissionTime": "2026-04-26T16:19:57.500GMT",
+      "completionTime": "2026-04-26T16:19:57.657GMT",
       "stageIds": [
         15
       ],
       "jobTags": [
-        "broadcast exchange (runId 49c14869-fbaf-47b5-8f33-60fbb96aa78d)"
+        "broadcast exchange (runId 402edf4d-3046-44ff-908e-49eaa850c4ee)"
       ],
       "status": "SUCCEEDED",
       "numTasks": 1,
@@ -151,8 +151,8 @@
     {
       "jobId": 11,
       "name": "count at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:26.813GMT",
-      "completionTime": "2026-04-26T14:07:26.882GMT",
+      "submissionTime": "2026-04-26T16:19:56.875GMT",
+      "completionTime": "2026-04-26T16:19:56.948GMT",
       "stageIds": [
         13,
         14
@@ -175,8 +175,8 @@
     {
       "jobId": 10,
       "name": "count at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:26.743GMT",
-      "completionTime": "2026-04-26T14:07:26.785GMT",
+      "submissionTime": "2026-04-26T16:19:56.791GMT",
+      "completionTime": "2026-04-26T16:19:56.842GMT",
       "stageIds": [
         12
       ],
@@ -198,8 +198,8 @@
     {
       "jobId": 9,
       "name": "csv at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:26.595GMT",
-      "completionTime": "2026-04-26T14:07:26.658GMT",
+      "submissionTime": "2026-04-26T16:19:56.632GMT",
+      "completionTime": "2026-04-26T16:19:56.707GMT",
       "stageIds": [
         11
       ],
@@ -221,8 +221,8 @@
     {
       "jobId": 8,
       "name": "csv at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:26.491GMT",
-      "completionTime": "2026-04-26T14:07:26.537GMT",
+      "submissionTime": "2026-04-26T16:19:56.503GMT",
+      "completionTime": "2026-04-26T16:19:56.556GMT",
       "stageIds": [
         10
       ],
@@ -244,8 +244,8 @@
     {
       "jobId": 7,
       "name": "count at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:26.302GMT",
-      "completionTime": "2026-04-26T14:07:26.322GMT",
+      "submissionTime": "2026-04-26T16:19:56.302GMT",
+      "completionTime": "2026-04-26T16:19:56.329GMT",
       "stageIds": [
         9,
         8
@@ -268,8 +268,8 @@
     {
       "jobId": 6,
       "name": "count at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:26.160GMT",
-      "completionTime": "2026-04-26T14:07:26.258GMT",
+      "submissionTime": "2026-04-26T16:19:56.157GMT",
+      "completionTime": "2026-04-26T16:19:56.265GMT",
       "stageIds": [
         7
       ],
@@ -291,8 +291,8 @@
     {
       "jobId": 5,
       "name": "csv at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:25.772GMT",
-      "completionTime": "2026-04-26T14:07:25.973GMT",
+      "submissionTime": "2026-04-26T16:19:55.848GMT",
+      "completionTime": "2026-04-26T16:19:56.008GMT",
       "stageIds": [
         6
       ],
@@ -314,8 +314,8 @@
     {
       "jobId": 4,
       "name": "csv at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:25.673GMT",
-      "completionTime": "2026-04-26T14:07:25.713GMT",
+      "submissionTime": "2026-04-26T16:19:55.732GMT",
+      "completionTime": "2026-04-26T16:19:55.778GMT",
       "stageIds": [
         5
       ],
@@ -337,8 +337,8 @@
     {
       "jobId": 3,
       "name": "count at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:25.355GMT",
-      "completionTime": "2026-04-26T14:07:25.467GMT",
+      "submissionTime": "2026-04-26T16:19:55.420GMT",
+      "completionTime": "2026-04-26T16:19:55.538GMT",
       "stageIds": [
         3,
         4
@@ -361,8 +361,8 @@
     {
       "jobId": 2,
       "name": "count at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:25.075GMT",
-      "completionTime": "2026-04-26T14:07:25.262GMT",
+      "submissionTime": "2026-04-26T16:19:55.025GMT",
+      "completionTime": "2026-04-26T16:19:55.298GMT",
       "stageIds": [
         2
       ],
@@ -384,8 +384,8 @@
     {
       "jobId": 1,
       "name": "csv at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:24.388GMT",
-      "completionTime": "2026-04-26T14:07:24.685GMT",
+      "submissionTime": "2026-04-26T16:19:54.370GMT",
+      "completionTime": "2026-04-26T16:19:54.610GMT",
       "stageIds": [
         1
       ],
@@ -407,8 +407,8 @@
     {
       "jobId": 0,
       "name": "csv at NativeMethodAccessorImpl.java:0",
-      "submissionTime": "2026-04-26T14:07:23.164GMT",
-      "completionTime": "2026-04-26T14:07:23.992GMT",
+      "submissionTime": "2026-04-26T16:19:53.373GMT",
+      "completionTime": "2026-04-26T16:19:54.096GMT",
       "stageIds": [
         0
       ],

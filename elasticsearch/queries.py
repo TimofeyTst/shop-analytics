@@ -17,7 +17,7 @@ PERIOD_TO   = "2024-12-31"
 
 
 def run_query1():
-    """Monthly breakdown of products with sold quantity per product name (nested agg)."""
+    """Месячный отчет по продажам продуктов с количеством проданных единиц для каждого названия продукта."""
     body = {
         "size": 0,
         "aggs": {

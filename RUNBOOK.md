@@ -87,7 +87,7 @@ ssh -L 4040:localhost:4040 timofeytst@158.160.202.75
 
 **Проверить содержимое HDFS**:
 ```bash
-hdfs dfs -ls /shop-analytics/
+/usr/local/hadoop/bin/hdfs dfs -ls /shop-analytics/
 ```
 
 ---
